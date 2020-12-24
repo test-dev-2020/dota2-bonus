@@ -23,6 +23,11 @@
   align-items: center;
   flex-direction: column;
 }
+.glow {
+  position: absolute;
+  top: 2rem;
+  right: 7rem;
+}
 .char.mobile {
   display: none;
 }
@@ -392,11 +397,14 @@
 }
 
 @media (max-width: 1090px) {
+  .glow {
+    display: none;
+  }
   .char.pc {
     display: none;
   }
   .overlay {
-    display: none;
+    background: rgba(0, 0, 0, 0.3);
   }
   .content__steps-wrapper::before {
     bottom: -200rem;
