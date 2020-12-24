@@ -935,8 +935,6 @@ header.header {
   width: 122rem;
   bottom: 0;
   right: -300rem;
-  -webkit-animation: crystals 7s ease-in-out infinite;
-          animation: crystals 7s ease-in-out infinite;
 }
 
 .gyro {
@@ -978,8 +976,6 @@ header.header {
   width: 145rem;
   top: 400rem;
   left: -300rem;
-  -webkit-animation: crystals 7s ease-in-out infinite;
-          animation: crystals 7s ease-in-out infinite;
 }
 
 .crystal-1 {
