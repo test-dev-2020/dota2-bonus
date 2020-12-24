@@ -77,21 +77,7 @@ document.addEventListener('DOMContentLoaded', function(){
  
   
 
-  let x, y, raf;
-  const card = document.querySelector('.layer');
-  
-  document.addEventListener('mousemove', e => {
-    x = (e.clientX / window.innerWidth - 0.5) * 2;
-    y = (e.clientY / window.innerHeight - 0.5) * 2;
-  
-    raf = raf || requestAnimationFrame(update);
-  });
-  
-  function update() {
-    card.style.setProperty('--x', x);
-    card.style.setProperty('--y', y);
-    raf = null;
-  }
+
   
 
 
